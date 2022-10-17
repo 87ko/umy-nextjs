@@ -10,6 +10,8 @@ export default function Page() {
                 <title>ページのタイトル</title>
                 <meta property='og:title' content='ページのタイトル' />
             </Head>
+
+            {/* ふだんはライブラリを使用する。Scriptは使わないことがおおい */}
             <Script
                 src='/jquery-3.2.1.min.js'
                 // strategy='beforeInteractive' //サーバから返ってくるHTMLの状態を表示
